@@ -69,7 +69,8 @@ function Content({ selectedGroup }) {
             <>
               <>
                 <img
-                  src="./src/image/image-removebg-preview 1.png"
+                  // src="./src/image/image-removebg-preview 1.png"
+                  src="/image-removebg-preview 1.png"
                   alt="Pocket Notes" className={styles["bgImage"]}
                 />
                 <h2>Pocket Notes</h2>
@@ -80,7 +81,8 @@ function Content({ selectedGroup }) {
               </>
 
               <p className={styles["encrypt-message"]}>
-                <img src="./src/image/Lock.png" alt="Lock" className={styles['lockImage']} />
+                <img src="/Lock.png" alt="Lock" className={styles['lockImage']} />
+                {/* <img src="./src/image/Lock.png" alt="Lock" className={styles['lockImage']} /> */}
                 &nbsp;end-to-end encrypted
               </p>
             </>

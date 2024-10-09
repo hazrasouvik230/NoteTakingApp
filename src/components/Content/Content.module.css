@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.right-container {
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 100vh;
+    background: rgba(218, 229, 245, 1);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-inner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 74%;
+    object-fit: cover;
+}
+
+.bgImage {
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.encrypt-message {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
+}
+
+.lockImage {
+    height: 22px;
+    width: 22px;
+}
+
+.inputSection {
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 100vh;
+    background: rgba(218, 229, 245, 1);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputHeader {
+    top: 0;
+    right: 0;
+    width: 70vw;
+    background: rgba(0, 31, 139, 1);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.groupInformation {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.groupIcon {
+    background: #2063FB;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.groupName {
+    font-size: 24px;
+}
+
+.notesContainer {
+    position: fixed;
+    top: 90px;
+    flex-grow: 1;
+    width: 70vw;
+    overflow-y: auto;
+    max-height: 80vh; 
+    background: rgba(218, 229, 245, 1);
+}
+
+.noteCard {
+    background: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+.noteDateTime {
+    color: #777;
+    margin-top: 15px;
+    text-align: end;
+}
+
+.inputContainer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    background: rgba(0, 31, 139, 1);
+    width: 70vw;
+}
+
+.inputStyle {
+    flex: 1;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background: white;
+    color: black;
+}
+
+.submitBtn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    color: rgba(171, 171, 171, 1);
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submitBtn:hover {
+    font-size: 50px;
+    transition: 1s;
+}
+
+
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .lockImage {
+        height: 18px;
+        width: 18px;
+    }
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .lockImage {
+        height: 14px;
+        width: 14px;
+    }
+}
+@media (max-width: 520px) {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .lockImage {
+        height: 10px;
+        width: 10px;
+    }
+}
+@media (max-width: 425px) {
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 7px;
+    }
+    .lockImage {
+        height: 7px;
+        width: 7px;
+    }
+}
